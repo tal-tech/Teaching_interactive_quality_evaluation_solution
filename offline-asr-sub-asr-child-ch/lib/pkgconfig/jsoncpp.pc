@@ -1,0 +1,11 @@
+prefix=/data/workspace/paas_platform/ai_asr/Deploy_Test_offline_asr_sub_asr-GEN-Chn-0-STU/offline-asr-sub-asr/package
+exec_prefix=/data/workspace/paas_platform/ai_asr/Deploy_Test_offline_asr_sub_asr-GEN-Chn-0-STU/offline-asr-sub-asr/package
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 1.9.2
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
